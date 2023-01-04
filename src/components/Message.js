@@ -6,9 +6,9 @@ function MessageInput() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const data = {
-      message: message,
-    };
+    // const data = {
+    //   message: message,
+    // };
 
 
     fetch('http://localhost:3001/', {
