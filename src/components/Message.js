@@ -61,7 +61,7 @@ function MessageInput() {
      {/* brief history of virus */}
 
       {response && (
-        <div className='min-w-fit md:text-md rounded-lg mx-16 p-4 mt-10 bg-slate-100 min-h-fit'>
+        <div className='min-w-fit md:text-md text-sm text-black rounded-lg mx-16 p-4 mt-10 bg-slate-100 min-h-fit'>
           {response.message}         
         </div>
       )}
