@@ -19,8 +19,9 @@ function MessageInput() {
       body: JSON.stringify({ message }),
     })
       .then((res) => res.json())
+       // eslint-disable-next-line
       .then((data) => {
-        console.log(data)
+        // console.log(data)
         setResponse(data);
         setMessage('');
         
